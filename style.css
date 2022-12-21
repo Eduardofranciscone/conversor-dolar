@@ -92,3 +92,12 @@ span{
     color: rgba(160, 159, 159, 0.911);
 }
 
+@media (max-width: 450px){
+    input{
+        width: 80%;
+    }
+
+    .usd,.brl{
+        width: auto;
+    }
+}
