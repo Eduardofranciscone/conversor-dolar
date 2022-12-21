@@ -10,7 +10,8 @@ function converter(){
     }).then((data)=>{
         let dados=data.USDBRL.high
         let brlInput= document.getElementById("real")
-        brlInput.value = Math.round(dados*valueInput)
+        let conta= dados*valueInput
+        brlInput.value =  conta.toFixed(2)
 
         if(valueInput==""){
             alert("Digite um Número para converter")
