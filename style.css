@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: blue;
+}
+
+h1{
+    color: #fff;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.usd{
+    display: grid;
+    background-color: #fff;
+    width: 250px;
+    padding: 10px;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+
+    grid-template: auto auto / auto auto;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.brl{
+    display: grid;
+    background-color: #fff;
+    width: 250px;
+    padding: 10px;
+    border: transparent;
+    border-radius: 10px;
+    margin-top: 40px;
+
+    grid-template: auto auto / auto auto;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
+#dolar{
+     grid-row-start: 2;
+     grid-column-start: 0;
+     grid-column-end:2 ;
+     text-align: center;
+}
+#real{
+     grid-row-start: 2;
+     grid-column-start: 0;
+     grid-column-end:2 ;
+     text-align: center;
+}
+.imagem{
+     grid-column-start: 0;
+     grid-column-end: 1;
+    
+}
+.paragrafo{
+     grid-column-start: 1;
+     grid-column-end: 2;
+}
+
+button{
+    background-color: #65f565;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: green;
+    color: #fff;
+}
+
+span{
+    color: rgba(160, 159, 159, 0.911);
+}
+
