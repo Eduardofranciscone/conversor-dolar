@@ -1,5 +1,5 @@
 # Conversor-dolar
- <h4>Criei um conversor dolár!,onde ele converte exatamente o valor do dolar atual para nossa moeda brasileira. Primeiro projeto basico utilizando alguns conceitos básicos sobre Api</h4>
+ <h4>Criei um conversor dolár!,onde ele converte exatamente o valor do dolar atual para nossa moeda brasileira. Primeiro projeto utilizando alguns conceitos básicos sobre Api</h4>
  
  <h2>Veja abaixo:</h2>
  
