@@ -8,7 +8,7 @@ function converter(){
     
         return resposta.json()
     }).then((data)=>{
-        let dados=data.USDBRL.high
+        let dados=data.BRLUSD.high
         let brlInput= document.getElementById("real")
         let conta= dados*valueInput
         brlInput.value =  conta.toFixed(2)
